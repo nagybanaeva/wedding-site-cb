@@ -176,6 +176,10 @@ a:hover {
   letter-spacing: .025rem;
 }
 
+.program li {
+  line-height: 1.8rem;
+}
+
 /* GIFTS STYLES */
 
 .gifts p:last-child{
@@ -198,18 +202,17 @@ a:hover {
 .faq-container{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .questions{
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   width: 28rem;
+  padding: 1rem;
 }
 
 .faq h3 {
@@ -221,6 +224,7 @@ a:hover {
   font-family: 'Muli', sans-serif;
   font-size: 1.125rem;
   line-height: 1.5rem;
+  text-align: left;
 }
 
 .question{
@@ -289,13 +293,17 @@ footer small {
   }
   .place {
     padding: 1.5rem;
-    margin: 4rem;}
+    margin: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .place::after {
     display: none;
   }
  .program p, .program ul{
     width: 30%;
     margin: 0 auto;
+    margin-bottom: 2rem;
   }
   .program h2, {
     width: 30%;
